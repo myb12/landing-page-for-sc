@@ -1,3 +1,11 @@
 .button-primary {
-    background-color: red;
+    height: 45px;
+    box-shadow: 16px 16px 28px rgba(48, 136, 255, 0.1);
+    border-radius: 8px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 22px;
+    padding-right: 22px;
 }
