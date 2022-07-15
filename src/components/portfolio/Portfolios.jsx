@@ -47,11 +47,14 @@ const Portfolios = () => {
             </div>
             <Swiper
                 breakpoints={{
-                    576: {
+                    400: {
                         slidesPerView: 1,
                     },
-                    768: {
+                    900: {
                         slidesPerView: 2,
+                    },
+                    1024: {
+                        slidesPerView: 3,
                     },
                 }}
                 slidesPerView={3}

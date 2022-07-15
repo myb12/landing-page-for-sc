@@ -4,50 +4,6 @@ import './WorkFlow.css';
 import WorkflowImage from '../../assets/workflow/workflow.png';
 
 const WorkFlow = () => {
-    const workflowData = [
-        {
-            id: 1,
-            title: '1. Defining Goal',
-            description: 'Project analysis, defining project requirements and objectives based on clients needs, cost and effort estimation, creating value and process planning.',
-            expandId: 'expandId1',
-            collapseId: 'collapseId1',
-        },
-        {
-            id: 2,
-            title: '2. Product Design',
-            description: 'Project analysis, defining project requirements and objectives based on clients needs, cost and effort estimation, creating value and process planning.',
-            expandId: 'expandId2',
-            collapseId: 'collapseId2',
-        },
-        {
-            id: 3,
-            title: '3. Development',
-            description: 'Project analysis, defining project requirements and objectives based on clients needs, cost and effort estimation, creating value and process planning.',
-            expandId: 'expandId3',
-            collapseId: 'collapseId3',
-        },
-        {
-            id: 4,
-            title: '4. Testing',
-            description: 'Project analysis, defining project requirements and objectives based on clients needs, cost and effort estimation, creating value and process planning.',
-            expandId: 'expandId4',
-            collapseId: 'collapseId4',
-        },
-        {
-            id: 5,
-            title: '5. Product Release',
-            description: 'Project analysis, defining project requirements and objectives based on clients needs, cost and effort estimation, creating value and process planning.',
-            expandId: 'expandId5',
-            collapseId: 'collapseId5',
-        },
-        {
-            id: 6,
-            title: '6. Maintenance Support',
-            description: 'Project analysis, defining project requirements and objectives based on clients needs, cost and effort estimation, creating value and process planning.',
-            expandId: 'expandId6',
-            collapseId: 'collapseId6',
-        },
-    ];
     const [clickedItem, setClickedItem] = useState('1. Defining Goal');
 
     const handleClick = (e) => {
@@ -74,7 +30,7 @@ const WorkFlow = () => {
                                     </h2>
                                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            roject analysis, defining project requirements and objectives based on clients needs, cost and effort estimation, creating value and process planning.
+                                            Project analysis, defining project requirements and objectives based on clients needs, cost and effort estimation, creating value and process planning.
                                         </div>
                                     </div>
                                 </div>

@@ -23,7 +23,7 @@ const OurProducts = () => {
                     </div>
                 </div>
             </div>
-            <div className="container">
+            <div className="container first-container">
                 <div className="row">
                     <div className="col-lg-6 p-0">
                         <div className="p-5 bg-white h-100">
@@ -40,6 +40,11 @@ const OurProducts = () => {
                     <div className="col-lg-6 p-0">
                         <img src={product1} alt="" className={'img-fluid'} />
                     </div>
+                </div>
+            </div>
+
+            <div className="container second-container">
+                <div className="row second-row" >
                     <div className="col-lg-6 p-0">
                         <img src={product2} alt="" className={'img-fluid'} />
                     </div>

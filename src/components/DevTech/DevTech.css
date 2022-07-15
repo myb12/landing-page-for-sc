@@ -1,0 +1,26 @@
+.dev-tech {
+    margin-top: 140px;
+}
+
+.nav-pills .nav-link {
+    border-bottom: 4px solid rgba(45, 91, 255, 0.1);
+    color: #040415 !important;
+    border-radius: 0 !important;
+}
+
+.nav-link.active {
+    background-color: transparent !important;
+    position: relative;
+    width: fit-content;
+}
+
+.nav-link.active:after {
+    content: '';
+    background-color: #2D5BFF;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    z-index: 1;
+    height: 4px;
+    width: 50%;
+}

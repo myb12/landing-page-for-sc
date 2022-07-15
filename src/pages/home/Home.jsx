@@ -10,6 +10,7 @@ import DesignTech from "../../components/DesignTech/DesignTech";
 import TalkAboutUs from '../../components/TalkAboutUs/TalkAboutUs';
 import Footer from '../../shared/Footer/Footer';
 import WorkFlow from '../../components/WorkFlow/WorkFlow';
+import DevTech from '../../components/DevTech/DevTech';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
             <PricingPlan />
             <TalkAboutUs />
             <Portfolios />
+            <DevTech />
             <DesignTech />
             <WorkFlow />
             <Footer />
