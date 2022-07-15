@@ -1,8 +1,6 @@
 import React from 'react';
 import './ButtonPrimary.css';
 
-// '#3088FF' : '#3088FF' : '#2D5BFF'
-
 const ButtonPrimary = ({ title, variant }) => {
     return (
         <button

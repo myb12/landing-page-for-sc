@@ -26,7 +26,7 @@ const Portfolios = () => {
         },
         {
             id: 4,
-            title: 'Web Applcation Development',
+            title: 'Web Development',
             image: 'https://i.ibb.co/84zVHVg/Colory-Cover-1.png',
         },
         {

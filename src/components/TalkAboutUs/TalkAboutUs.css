@@ -1,0 +1,66 @@
+.talk-about-us {
+    margin-top: 140px;
+}
+
+.talk-about-us .row {
+    margin-top: -40px;
+}
+
+.open-quote {
+    margin-top: -42px;
+}
+
+.close-quote {
+    margin-top: -30px;
+    position: relative;
+    top: 32px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.author h2 {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: var(--color-font);
+    margin-bottom: 0;
+}
+
+.author p {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--color-font);
+    margin-bottom: 0;
+}
+
+.author img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.swiper-wrapper {
+    padding-bottom: 60px;
+}
+
+.swiper-pagination {
+    width: max-content !important;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--color-primary-light);
+}
+
+.swiper-pagination-bullet-active {
+    width: 20px;
+    border-radius: 22%;
+    background-color: var(--color-primary);
+}
