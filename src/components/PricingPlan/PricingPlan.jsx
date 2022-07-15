@@ -5,7 +5,6 @@ import ButtonPrimary from "../../shared/buttonPrimary/ButtonPrimary";
 
 const PricingPlan = () => {
     const [yearly, setYearly] = useState(false);
-    console.log('y', yearly)
     const cardData = [
         {
             title: "Merketing",
