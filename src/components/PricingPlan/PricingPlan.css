@@ -1,20 +1,26 @@
-.custom-card{
+.pricing-plan {
+    margin-top: 140px;
+}
+
+.custom-card {
     width: 100%;
     background: rgba(48, 136, 255, 0.05);
     border-radius: 12px;
     transition: all 0.3s;
 }
-.custom-card:hover{
-    background-color: #2D5BFF;
+
+.custom-card:hover {
+    background-color: var(--color-primary);
     color: #ffffff;
 }
 
-.pricing-card-btn{
-    background: #F6A00E;
+.pricing-card-btn {
+    background: var(--color-secondary);
     border-radius: 12px;
-    color:#ffffff;
+    color: #ffffff;
     font-weight: 700;
 }
-.pricing-card-btn:hover{
-    background: #F6A00E;
+
+.pricing-card-btn:hover {
+    background: var(--color-secondary);
 }

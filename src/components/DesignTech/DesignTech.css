@@ -1,0 +1,9 @@
+.design-tech {
+    margin-top: 140px;
+}
+
+.design-tech-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

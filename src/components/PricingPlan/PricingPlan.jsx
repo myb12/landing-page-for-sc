@@ -57,7 +57,7 @@ const PricingPlan = () => {
         }
     ]
     return (
-        <div className={'container'}>
+        <div className='container pricing-plan'>
             <SectionHeader
                 center
                 small

@@ -8,6 +8,7 @@ import OurProducts from "../../components/OurProducts/OurProducts";
 import PricingPlan from "../../components/PricingPlan/PricingPlan";
 import DesignTech from "../../components/DesignTech/DesignTech";
 import TalkAboutUs from '../../components/TalkAboutUs/TalkAboutUs';
+import Footer from '../../shared/Footer/Footer';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <DesignTech />
             <Portfolios />
             <TalkAboutUs />
+            <Footer />
         </div>
     );
 };
