@@ -9,6 +9,7 @@ import PricingPlan from "../../components/PricingPlan/PricingPlan";
 import DesignTech from "../../components/DesignTech/DesignTech";
 import TalkAboutUs from '../../components/TalkAboutUs/TalkAboutUs';
 import Footer from '../../shared/Footer/Footer';
+import WorkFlow from '../../components/WorkFlow/WorkFlow';
 
 const Home = () => {
     return (
@@ -19,9 +20,10 @@ const Home = () => {
             <WhatWeDo />
             <OurProducts />
             <PricingPlan />
-            <DesignTech />
-            <Portfolios />
             <TalkAboutUs />
+            <Portfolios />
+            <DesignTech />
+            <WorkFlow />
             <Footer />
         </div>
     );

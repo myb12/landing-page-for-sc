@@ -5,16 +5,19 @@
     width: fit-content;
     font-family: 'Overlock', cursive;
     font-weight: 700;
+    text-align: center;
 }
 
 .pricing {
     position: relative;
     font-weight: 400;
 }
-.small{
+
+.small {
     font-size: 28px !important;
 }
-.price{
+
+.price {
     font-size: 20px !important;
 
 }

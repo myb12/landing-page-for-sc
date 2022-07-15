@@ -1,0 +1,57 @@
+.workflow-wrapper {
+    background-image: url('../../assets/workflow/workflow-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.workflow {
+    margin-top: 140px;
+}
+
+.workflow-accordion {
+    margin-top: 80px;
+}
+
+.accordion-button {
+    color: var(--color-dark);
+    font-family: 'Overlock';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    background-color: transparent;
+}
+
+.accordion-button:focus {
+    border-color: transparent !important;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--color-font);
+    background-color: var(--color-white);
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-item {
+    border: none;
+    color: var(--color-font-light);
+    background-color: transparent;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+.styled-item {
+    background: var(--color-white);
+    box-shadow: 12px 12px 55px rgba(4, 4, 21, 0.06);
+    border-radius: 6px;
+    border-left: 2.8px solid var(--color-primary) !important;
+}
