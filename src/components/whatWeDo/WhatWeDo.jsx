@@ -32,9 +32,8 @@ const WhatWeDo = () => {
         'Blockchain Development (NFT)',
     ];
     return (
-        <div style={{ backgroundImage: `url(${require('../../assets/what-we-do/What-we-do-bg.png')})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
-            <div className={'container py-5'}>
-
+        <div className='what-we-do-wrapper'>
+            <div className='container py-5'>
                 <SectionHeader
                     big={false}
                     small={true}

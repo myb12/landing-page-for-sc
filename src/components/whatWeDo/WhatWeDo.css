@@ -1,0 +1,7 @@
+.what-we-do-wrapper {
+    background-image: url(../../assets/what-we-do/What-we-do-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 140px;
+}
