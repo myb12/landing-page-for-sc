@@ -7,7 +7,13 @@ const WorkFlow = () => {
     const [clickedItem, setClickedItem] = useState('1. Defining Goal');
 
     const handleClick = (e) => {
-        setClickedItem(e.target.innerText)
+        let isExpanded = e.target.getAttribute('aria-expanded');
+        console.log(isExpanded)
+        if (isExpanded === 'true') {
+            setClickedItem(e.target.innerText)
+        } else {
+            setClickedItem('')
+        }
     }
     return (
         <div className="workflow-wrapper">

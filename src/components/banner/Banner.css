@@ -79,3 +79,18 @@
 .play-icon svg {
     font-size: 30px;
 }
+
+@media screen and (max-width:580px) {
+    .banner-heading {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .banner-heading-shape {
+        margin-top: -26px;
+    }
+
+    .banner-shape {
+        max-width: 300px;
+    }
+}
